@@ -10,3 +10,5 @@ git config --global user.name "jasdeepsinghhanspal"
 
 git config --global --list
 ssh-keygen
+
+powershell=Get-Content ~/.ssh/id_rsa.pub | Set-Clipboard
